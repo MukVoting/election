@@ -27,4 +27,4 @@ jobs:
     - name: Build
       run: dotnet build Muk.Election.sln --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test Muk.Election.sln --no-build --verbosity normal
